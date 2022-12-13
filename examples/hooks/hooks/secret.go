@@ -3,9 +3,9 @@ package hooks
 import (
 	"context"
 	"fmt"
-	"github.com/loft-sh/vcluster-sdk/hook"
-	"github.com/loft-sh/vcluster-sdk/syncer"
-	synccontext "github.com/loft-sh/vcluster-sdk/syncer/context"
+	"github.com/TylerGillson/vcluster-sdk/hook"
+	"github.com/TylerGillson/vcluster-sdk/syncer"
+	synccontext "github.com/TylerGillson/vcluster-sdk/syncer/context"
 	"github.com/pkg/errors"
 	corev1 "k8s.io/api/core/v1"
 	kerrors "k8s.io/apimachinery/pkg/api/errors"

@@ -2,8 +2,8 @@ package testing
 
 import (
 	"context"
-	"github.com/loft-sh/vcluster-sdk/syncer"
-	synccontext "github.com/loft-sh/vcluster-sdk/syncer/context"
+	"github.com/TylerGillson/vcluster-sdk/syncer"
+	synccontext "github.com/TylerGillson/vcluster-sdk/syncer/context"
 	"gotest.tools/assert"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/runtime"

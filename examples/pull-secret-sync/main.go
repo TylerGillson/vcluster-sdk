@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
+	"github.com/TylerGillson/vcluster-sdk/plugin"
 	"github.com/loft-sh/vcluster-pull-secret-sync/syncers"
-	"github.com/loft-sh/vcluster-sdk/plugin"
 )
 
 const (

@@ -3,10 +3,10 @@ package syncers
 import (
 	"fmt"
 
-	"github.com/loft-sh/vcluster-sdk/applier"
-	"github.com/loft-sh/vcluster-sdk/log"
-	"github.com/loft-sh/vcluster-sdk/syncer"
-	synccontext "github.com/loft-sh/vcluster-sdk/syncer/context"
+	"github.com/TylerGillson/vcluster-sdk/applier"
+	"github.com/TylerGillson/vcluster-sdk/log"
+	"github.com/TylerGillson/vcluster-sdk/syncer"
+	synccontext "github.com/TylerGillson/vcluster-sdk/syncer/context"
 )
 
 const (

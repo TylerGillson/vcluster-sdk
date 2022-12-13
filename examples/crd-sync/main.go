@@ -1,8 +1,8 @@
 package main
 
 import (
+	"github.com/TylerGillson/vcluster-sdk/plugin"
 	"github.com/loft-sh/vcluster-example/syncers"
-	"github.com/loft-sh/vcluster-sdk/plugin"
 )
 
 func main() {

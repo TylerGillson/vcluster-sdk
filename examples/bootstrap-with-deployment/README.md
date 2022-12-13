@@ -10,7 +10,7 @@ To use the plugin, create a new vcluster with the `plugin.yaml`:
 
 ```
 # Use public plugin.yaml
-vcluster create my-vcluster -n my-vcluster -f https://raw.githubusercontent.com/loft-sh/vcluster-sdk/main/examples/bootstrap-with-deployment/plugin.yaml
+vcluster create my-vcluster -n my-vcluster -f https://raw.githubusercontent.com/TylerGillson/vcluster-sdk/main/examples/bootstrap-with-deployment/plugin.yaml
 ```
 
 After that, wait for vcluster to start up and check:

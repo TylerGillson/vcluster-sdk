@@ -1,12 +1,12 @@
 package syncers
 
 import (
+	"github.com/TylerGillson/vcluster-sdk/plugin"
+	"github.com/TylerGillson/vcluster-sdk/syncer"
+	synccontext "github.com/TylerGillson/vcluster-sdk/syncer/context"
+	"github.com/TylerGillson/vcluster-sdk/syncer/translator"
+	"github.com/TylerGillson/vcluster-sdk/translate"
 	examplev1 "github.com/loft-sh/vcluster-example/apis/v1"
-	"github.com/loft-sh/vcluster-sdk/plugin"
-	"github.com/loft-sh/vcluster-sdk/syncer"
-	synccontext "github.com/loft-sh/vcluster-sdk/syncer/context"
-	"github.com/loft-sh/vcluster-sdk/syncer/translator"
-	"github.com/loft-sh/vcluster-sdk/translate"
 	"k8s.io/apimachinery/pkg/api/equality"
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"

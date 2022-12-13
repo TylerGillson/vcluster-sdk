@@ -3,7 +3,7 @@ package testing
 import (
 	"context"
 	"fmt"
-	synccontext "github.com/loft-sh/vcluster-sdk/syncer/context"
+	synccontext "github.com/TylerGillson/vcluster-sdk/syncer/context"
 	"gotest.tools/assert"
 	"testing"
 

@@ -10,17 +10,17 @@ To use the plugin, create a new vcluster with the `plugin.yaml`:
 
 ```
 # Apply cars crd in host cluster
-kubectl apply -f https://raw.githubusercontent.com/loft-sh/vcluster-sdk/main/examples/crd-sync/manifests/crds.yaml
+kubectl apply -f https://raw.githubusercontent.com/TylerGillson/vcluster-sdk/main/examples/crd-sync/manifests/crds.yaml
 
 # Create vcluster with plugin
-vcluster create my-vcluster -n my-vcluster -f https://raw.githubusercontent.com/loft-sh/vcluster-sdk/main/examples/crd-sync/plugin.yaml
+vcluster create my-vcluster -n my-vcluster -f https://raw.githubusercontent.com/TylerGillson/vcluster-sdk/main/examples/crd-sync/plugin.yaml
 ```
 
 This will create a new vcluster with the plugin installed. Then test the plugin with:
 
 ```
 # Apply audi car to vcluster
-vcluster connect my-vcluster -n my-vcluster -- kubectl apply -f https://raw.githubusercontent.com/loft-sh/vcluster-sdk/main/examples/crd-sync/manifests/audi.yaml
+vcluster connect my-vcluster -n my-vcluster -- kubectl apply -f https://raw.githubusercontent.com/TylerGillson/vcluster-sdk/main/examples/crd-sync/manifests/audi.yaml
 
 # Check if car got correctly synced
 kubectl get cars -n my-vcluster

@@ -2,11 +2,11 @@ package syncers
 
 import (
 	"fmt"
+	"github.com/TylerGillson/vcluster-sdk/translate"
 	"github.com/loft-sh/vcluster-pull-secret-sync/constants"
-	"github.com/loft-sh/vcluster-sdk/translate"
 
-	"github.com/loft-sh/vcluster-sdk/syncer"
-	synccontext "github.com/loft-sh/vcluster-sdk/syncer/context"
+	"github.com/TylerGillson/vcluster-sdk/syncer"
+	synccontext "github.com/TylerGillson/vcluster-sdk/syncer/context"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/equality"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

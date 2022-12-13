@@ -3,7 +3,7 @@ package hooks
 import (
 	"context"
 	"fmt"
-	"github.com/loft-sh/vcluster-sdk/hook"
+	"github.com/TylerGillson/vcluster-sdk/hook"
 	corev1 "k8s.io/api/core/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 )

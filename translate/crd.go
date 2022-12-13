@@ -13,8 +13,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"github.com/loft-sh/vcluster-sdk/applier"
-	"github.com/loft-sh/vcluster-sdk/log"
+	"github.com/TylerGillson/vcluster-sdk/applier"
+	"github.com/TylerGillson/vcluster-sdk/log"
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/client-go/discovery"
 	"k8s.io/client-go/rest"
